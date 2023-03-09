@@ -13,8 +13,11 @@ body {
 a:link {
     text-decoration:none;
     font-size: 20px;
-  }
-  
+}
+A:visited {
+    color: #ffffff;  
+    text-decoration: none; 
+}
 
 h1 {
     color: #ffffff;
@@ -33,7 +36,6 @@ h2 {
     color: #ffffff;
     text-align: center;
     font-size: 80px;
-    position: relative;
     align-items: center;
 }
 
@@ -42,12 +44,12 @@ h2 {
     max-height: 200px;
     min-width: 200px;
     align-items: center;
+    padding: 50px;
 }
 
 .container {
     text-align: center;
     margin-bottom: 80px;
-       
 }
 
 .parallax {
@@ -66,8 +68,6 @@ h2 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 40px;
-    
 }
 
 .parallax2 {
@@ -75,8 +75,7 @@ h2 {
     min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
-    margin: 20px;
-    
+   /*  margin: 20px; */   
 }
 
 .parallax3 {
@@ -85,7 +84,7 @@ h2 {
     background-attachment: fixed;
     background-repeat:repeat-x;
     background-position: center;
-    margin: 80px;
+   /*  margin: 80px; */
     
 }
 
@@ -95,21 +94,25 @@ h2 {
     color:#ffff;
     font-size: 50px;
     font-family: 'Bebas Neue', cursive;
-    /* font-family: 'Courier New', Courier, monospace; */
     text-align: center;
-    
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .article1 {
     background:rgb(2, 17, 27);
     color:#ffff;
     font-size: 50px;
-    /* font-family: 'Courier New', Courier, monospace; */
     font-family: 'Bebas Neue', cursive;
     text-align: center;
-    padding: 80px;
+    padding: 150px;
+    margin-bottom: 100px;
 }
 
+.article2 {
+    padding: 200px;
+
+}
 
 
 .skills {
@@ -124,7 +127,7 @@ h2 {
     height: 300px;
     padding: 10px;
     margin:30px;
-    
+    border-radius: 10%;
     
 }
 
@@ -183,8 +186,7 @@ h2 {
     object-fit: contain;
     transition: all 1s ease-in-out;
     filter: grayscale(100%);
-   
-  }
+}
 
 p {
     font-size: 30px;
@@ -203,15 +205,15 @@ p {
     color: rgb(255, 240, 240);
     text-shadow: 0 0 80px #000;
     font-size: 150px;       
-  }
+}
 
 
 .red { 
     color: rgb(161, 3, 3);     
-  }
+}
 
 
-  .box {
+.box {
     align-items: center;
     border: 1px solid #fff;
     border-radius: 10px;
@@ -232,4 +234,17 @@ p {
 .margin {
     margin-left: 20%;
     margin-right: 20%;
+}
+
+@media screen and (max-width:480px) {
+
+    .parallax1 {
+        background-size: 100%;
+    }
+    
+    .article1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
 }
