@@ -13,6 +13,7 @@ body {
 a:link {
     text-decoration:none;
     font-size: 20px;
+    color: #ffffff; 
 }
 A:visited {
     color: #ffffff;  
@@ -139,27 +140,25 @@ h2 {
     
 }
 
-
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
+}  
+
+::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey; 
     border-radius: 10px;
-  }
-   
-  ::-webkit-scrollbar-thumb {
+}   
+
+::-webkit-scrollbar-thumb {
     background: var(--red-color);
     border-radius: 10px;
-  }
+}
 
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #b30000; 
-  }
-  
-  
-  .container1 {
+}   
+
+.container1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,11 +239,35 @@ p {
 
     .parallax1 {
         background-size: 100%;
+        
     }
+
+    .article1{
+        margin-left: -40px;
+    }
+
+    .article2 {
+        padding: 20px;
+        margin: 300px 0px;
     
-    .article1 {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
     }
+
+    h2 {
+        font-size:50px;
+    }
+
+    .cel {
+        font-size: 80px;
+    }
+
+    .proyect {
+        width: 75%;
+        height: 75%;
+        border-radius: 10%;   
+    }
+
+   .app {
+    padding-bottom: 100px;
+   }
+
 }
