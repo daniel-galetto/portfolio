@@ -91,7 +91,10 @@ h2 {
 
 
 .article {
-    background:rgb(126, 11, 11);
+    background-image: url("./images/red2.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
     color:#ffff;
     font-size: 50px;
     font-family: 'Bebas Neue', cursive;
@@ -112,7 +115,6 @@ h2 {
 
 .article2 {
     padding: 200px;
-
 }
 
 
